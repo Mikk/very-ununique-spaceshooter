@@ -12,7 +12,7 @@ GameObject:
   - 50: {fileID: 5070116}
   - 60: {fileID: 6028366}
   - 114: {fileID: 11473240}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: BasicRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
