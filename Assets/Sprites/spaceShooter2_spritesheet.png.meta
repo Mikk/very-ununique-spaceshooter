@@ -1,16 +1,14 @@
 fileFormatVersion: 2
-guid: 7d673d73df335624db86ef112ccef6b1
-timeCreated: 1467819156
+guid: 0b46acbcf379b7246ab27aea419f1d3a
+timeCreated: 1477254497
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BlueShip
-    21300002: RedBullet
-    21300004: BlueBullet
-    21300006: sheet_0
-    21300008: BasicRed
-    21300010: BasicBlue
-    21300012: BasicGreen
+    21300000: DoubleShooter
+    21300002: SingleShooter
+    21300004: BombShooter
+    21300006: Carrier
+    21300008: TripleShooter
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -60,96 +58,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BlueShip
+      name: DoubleShooter
       rect:
         serializedVersion: 2
-        x: 211
-        y: 7
+        x: 562
+        y: 994
         width: 99
-        height: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 99, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SingleShooter
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 849
+        width: 97
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: RedBullet
+      name: BombShooter
       rect:
         serializedVersion: 2
-        x: 45
-        y: 772
-        width: 11
-        height: 11
+        x: 663
+        y: 987
+        width: 92
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: BlueBullet
+      name: Carrier
       rect:
         serializedVersion: 2
-        x: 45
-        y: 757
-        width: 11
-        height: 11
+        x: 277
+        y: 983
+        width: 170
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: sheet_0
+      name: TripleShooter
       rect:
         serializedVersion: 2
-        x: 919
-        y: 409
-        width: 7
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: BasicRed
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 8
+        x: 449
+        y: 994
         width: 112
-        height: 75
+        height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: BasicBlue
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 158
-        width: 111
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: BasicGreen
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 83
-        width: 111
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
