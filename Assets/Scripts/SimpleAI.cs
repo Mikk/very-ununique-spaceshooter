@@ -20,7 +20,7 @@ public class SimpleAI : MonoBehaviour {
         objectWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2;
         objectHeight = GetComponent<SpriteRenderer>().bounds.size.y / 2;
         bulletHeight = bullet.GetComponent<SpriteRenderer>().bounds.size.y / 2;
-    }
+	}
 
     void OnTriggerStay2D(Collider2D other)
     {

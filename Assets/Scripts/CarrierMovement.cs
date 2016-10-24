@@ -21,6 +21,7 @@ public class CarrierMovement : MonoBehaviour
 		{
 			xSpeed = xSpeed * -1;
 		}
+		transform.position = transform.position + new Vector3(0, objectHeight, 0);
 	}
 
 
