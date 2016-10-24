@@ -13,7 +13,7 @@ public class BossMovement : MonoBehaviour {
 	public bool gunDestroyed = false;
 	public bool gun1Destroyed = false;
 	public bool gun2Destroyed = false;
-
+	
 
 
 	void Start () {
@@ -25,7 +25,7 @@ public class BossMovement : MonoBehaviour {
 
 		if (bodyDestroyed || gunDestroyed && gun1Destroyed && gun2Destroyed)
 		{
-			Debug.Log("GAMEOVER");
+			UnityEngine.SceneManagement.SceneManager.LoadScene("Victory");
 			Destroy(gameObject);
 		}
 

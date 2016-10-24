@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     public float reloadSpeed;
     public GameObject bullet;
 
+	public GameObject text;
+
     public float invLength;
 
     private float playerWidth;
@@ -19,7 +21,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        playerWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2;
+		playerWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2;
         playerHeight = GetComponent<SpriteRenderer>().bounds.size.y / 2;
         bulletHeight = bullet.GetComponent<SpriteRenderer>().bounds.size.y / 2;
     }
@@ -43,6 +45,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+		if ( text != null)
+		{
+			text.GetComponent<UnityEngine.UI.Text>().text = "Health: " + health;
+		}
         float time = Time.deltaTime;
         Vector3 pos = transform.position;
 
@@ -52,7 +58,8 @@ public class Player : MonoBehaviour
         //Health check
         if (health <= 0)
         {
-            Destroy(gameObject);
+			UnityEngine.SceneManagement.SceneManager.LoadScene("Defeat");
+			Destroy(gameObject);
         }
 
         //Movement
