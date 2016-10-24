@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0b46acbcf379b7246ab27aea419f1d3a
-timeCreated: 1477254497
+timeCreated: 1477290792
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,9 @@ TextureImporter:
     21300004: BombShooter
     21300006: Carrier
     21300008: TripleShooter
+    21300010: BossBody
+    21300012: BossShooter
+    21300014: BossBombShooter
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -117,6 +120,45 @@ TextureImporter:
         y: 994
         width: 112
         height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossBody
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 734
+        width: 276
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossShooter
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 835
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossBombShooter
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 853
+        width: 84
+        height: 133
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

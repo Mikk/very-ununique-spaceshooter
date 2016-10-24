@@ -99,11 +99,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012406909652, guid: fab8c8bf0bd0b1048ba51c43ac558ea7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.03
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4000012406909652, guid: fab8c8bf0bd0b1048ba51c43ac558ea7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.58
+      value: -3.71
       objectReference: {fileID: 0}
     - target: {fileID: 4000012406909652, guid: fab8c8bf0bd0b1048ba51c43ac558ea7, type: 2}
       propertyPath: m_LocalPosition.z
@@ -245,6 +245,7 @@ MonoBehaviour:
   bombShooter: {fileID: 1000014294455582, guid: f73869501776c824faeb3d93c05b2dc3,
     type: 2}
   carrier: {fileID: 1000013230347330, guid: 104f21a2d4ddd0542a45b46601c5f7ee, type: 2}
-  wave: 8
+  boss: {fileID: 0}
+  wave: 0
   waveCountdown: 0
   waveCooldown: 6
