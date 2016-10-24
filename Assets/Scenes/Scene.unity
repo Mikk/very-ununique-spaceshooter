@@ -344,7 +344,7 @@ MonoBehaviour:
     type: 2}
   carrier: {fileID: 1000013230347330, guid: 104f21a2d4ddd0542a45b46601c5f7ee, type: 2}
   boss: {fileID: 1000013063845092, guid: 83d632c0ca3171044b96f4c4e15ea447, type: 2}
-  wave: 21
+  wave: 0
   waveCountdown: 0
   waveCooldown: 6
 --- !u!1 &2098244577
