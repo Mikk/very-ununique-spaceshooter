@@ -1,0 +1,16 @@
+What went well?
+	Fulfilled all of the main goals:
+		5 basic enemy types
+		1 level
+		1 boss fight
+
+What went wrong?
+
+	The pacing of the level could be better
+	The pacing of the boss fight is poor
+	Sometimes the game is too difficult/unfair
+	The game needs a lot of polish
+
+
+What would you do differently in your next project?
+	allocate more time on polishing the game
