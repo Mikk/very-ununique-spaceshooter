@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64aa23fbe5432274e8854052b07ed6b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reloadSpeed: 1
+  reloadSpeed: 0.5
   bullet: {fileID: 150966, guid: b41ab15fc24550d4583bd3b17e050ec1, type: 2}
 --- !u!114 &114000013961632434
 MonoBehaviour:
@@ -121,9 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e7343aaea8f9d44b9489b5d672fb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 6
-  ySpeed: -0.5
-  health: 5
+  xSpeed: 4
+  ySpeed: -0.4
+  health: 7
 --- !u!212 &212000013250590974
 SpriteRenderer:
   m_ObjectHideFlags: 1

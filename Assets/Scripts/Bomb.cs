@@ -106,6 +106,8 @@ public class Bomb : MonoBehaviour
 			}
 
 		}
+		xSpeed = xSpeed / 4;
+		ySpeed = ySpeed / 4;
 	}
 
 	void OnTriggerStay2D(Collider2D other)
@@ -153,7 +155,7 @@ public class Bomb : MonoBehaviour
 		transform.position = pos;
 
 		timeExisted += time;
-		if (timeExisted > 1)
+		if (timeExisted > 5)
 		{
 			explode();
 			Destroy(gameObject);

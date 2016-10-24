@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b11ac5e6386fd724e8f32ad227ce3b2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reloadSpeed: 1
+  reloadSpeed: 0.8
   bullet: {fileID: 150966, guid: b41ab15fc24550d4583bd3b17e050ec1, type: 2}
 --- !u!212 &212000010243479380
 SpriteRenderer:

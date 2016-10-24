@@ -4,7 +4,7 @@ using System.Collections;
 public class SingleShooter : MonoBehaviour {
 
 
-	private float shotCooldown = 0;
+	public float shotCooldown = 0;
 	private float bulletHeight;
 	public float reloadSpeed;
 	public GameObject bullet;

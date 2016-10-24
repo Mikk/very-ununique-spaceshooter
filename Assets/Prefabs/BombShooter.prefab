@@ -114,9 +114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e7343aaea8f9d44b9489b5d672fb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 1
-  ySpeed: -0.4
-  health: 1
+  xSpeed: 1.5
+  ySpeed: -0.3
+  health: 20
 --- !u!114 &114000010951746740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ae2913a0387e5409b046b0661034bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reloadSpeed: 1
+  reloadSpeed: 2
   bullet: {fileID: 1000011190571212, guid: a3172d3b1af843541bdb96904d9b009d, type: 2}
 --- !u!212 &212000013051483454
 SpriteRenderer:
