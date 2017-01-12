@@ -57,6 +57,7 @@ public class BossMovement : MonoBehaviour {
 			xSpeed = 1;
 			ySpeed = 0;
 			switched = true;
+			GetComponentInChildren<BossSeeker>().phase = 1;
 		}
 
 

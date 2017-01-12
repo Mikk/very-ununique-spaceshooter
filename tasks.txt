@@ -1,0 +1,21 @@
+
+
+
+mäng
+	levelid
+		level
+			player ship
+				controls
+				movement variables
+			enemies
+				regular enemies
+					bullets
+				enemy placement
+				boss
+	ui
+		score
+			accuracy
+			kills
+			(time)
+		health
+	title screen(press any key)
